@@ -56,7 +56,7 @@ $bold: bold;
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
-    background-color: #F0FCF7;
+    background-color: $primaryColor;
 }
 
 .mywork-container-row{
@@ -116,6 +116,7 @@ $bold: bold;
 
 //Mobile Size
 @media screen and (max-width: 600px) {
+
     .mywork-container-row{
         display: flex;
         flex-wrap: wrap;
