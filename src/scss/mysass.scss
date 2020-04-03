@@ -1,0 +1,330 @@
+//Color
+$primaryColor: #F0FCF7;
+$secondaryColor: #A1FFE0;
+$tertiaryColor: #7BD9CD;
+$fourthColor: #5EB3B6;
+$fifthColor:#3C6A7A;
+$sixthColor:#2F4858;
+
+$iconColor:#678285;
+
+
+
+//size
+$base: 16px;
+$font: 14px;
+$radius: 6px;
+$padding: 25px;
+
+// font sizes
+$h1: 26px;
+$h2: 20px;
+$h3: 18px;
+$title: 18px;
+$header: 16px;
+$body: 14px;
+$caption: 12px;
+
+// letter spacing
+$sh1:0;
+$sh2:0.15;
+$sh3:0.15;
+$stitle:0.15;
+$sheader:0.15;
+$sbody:0.1;
+$scaption:0.4;
+
+//font weight
+$light: 200;
+$regular:300;
+$semibold:400;
+$bold: bold;
+
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+html,body{
+  margin:0;
+  padding:0;
+}
+
+//Web Size
+@media screen and (min-width: 768px) {
+  .appbody {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    max-width: 100%;
+    
+    height: auto;
+    background-color: $primaryColor;
+  }
+  .navbar-desktop {
+    display: flex;
+    background-color: $sixthColor;
+    width: 4vw;
+    height: 100vh;
+    max-height: 100%;
+    flex-direction: column;
+
+  }
+  .navbar-mobile {
+    display: none;
+
+  }
+
+  #homelogo{
+    flex-basis: 10%;
+    background-color: $sixthColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #img-signature{
+    width: 80%;
+  }
+
+  .homeMainMenu{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: $base*2;
+    padding-bottom: $base*2;
+  }
+  .homeSecondaryMenu{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+}
+
+
+//Mobile Size
+@media screen and (max-width: 768px) {
+  .appbody {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    background-color: $primaryColor;
+  }
+  .navbar-desktop{
+    display: none;
+  }
+  .navbar-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  #homelogo{
+    flex-basis: 10%;
+    background-color: $sixthColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #img-signature-mobile{
+    width:100%;
+  }
+
+
+  .navbar-mobile-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: $caption $base $caption $base;
+    background-color: $sixthColor;
+  }
+  #img-signature{
+    height: 10%;
+  }
+  .navbar-mobile-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: $caption $base $caption $base;
+    background-color: $sixthColor;
+  }
+
+}
+
+
+.menuItem {
+  cursor: pointer;
+}
+
+.menuIcon {
+  width: $padding;
+  height: $padding;
+  fill: $primaryColor;
+}
+
+
+//Menu Home
+#menuHomeContainer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuHomeIcon{
+
+  transition: all .2s;
+}
+
+#menuHomeDesc{
+  opacity: 0;
+  position: absolute;
+  transition: all .2s;
+}
+
+#menuHomeContainer:hover{
+
+  #menuHomeIcon{
+    opacity: 0;
+  }
+
+  #menuHomeDesc{
+    opacity: 1;
+    position: absolute;
+  }
+}
+
+//Menu About
+
+#menuAboutContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuAboutIcon{
+  transition: all .2s;
+}
+
+#menuAboutDesc{
+  opacity: 0;
+  position: absolute;
+  transition: all .2s;
+}
+
+#menuAboutContainer:hover{
+
+  #menuAboutIcon{
+    opacity: 0;
+  }
+
+  #menuAboutDesc{
+    opacity: 1;
+    position: absolute;
+  }
+}
+
+//Skill
+
+#menuSkillContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuSkillIcon{
+  transition: all .2s;
+}
+
+#menuSkillDesc{
+  opacity: 0;
+  position: absolute;
+  transition: all .2s;
+}
+
+#menuSkillContainer:hover{
+
+  #menuSkillIcon{
+    opacity: 0;
+  }
+
+  #menuSkillDesc{
+    opacity: 1;
+    position: absolute;
+  }
+}
+
+// Work
+
+#menuWorkContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuWorkIcon{
+  transition: all .2s;
+}
+
+#menuWorkDesc{
+  opacity: 0;
+  position: absolute;
+  transition: all .2s;
+}
+
+#menuWorkContainer:hover{
+
+  #menuWorkIcon{
+    opacity: 0;
+  }
+
+  #menuWorkDesc{
+    opacity: 1;
+    position: absolute;
+  }
+}
+
+//Contact
+
+#menuContactContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuContactIcon{
+  transition: all .2s;
+}
+
+#menuContactDesc{
+  opacity: 0;
+  position: absolute;
+  transition: all .2s;
+}
+
+#menuContactContainer:hover{
+
+  #menuContactIcon{
+    opacity: 0;
+  }
+
+  #menuContactDesc{
+    opacity: 1;
+    position: absolute;
+  }
+}
+
+.link-text{
+  text-decoration: none;
+  font-size: $body;
+  font-weight: $semibold;
+  color: $primaryColor;
+}
+
+
+
+
