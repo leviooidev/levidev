@@ -1,6 +1,4 @@
 import React from 'react';
-import FlareComponent from 'flare-react';
-import penguin from '../assets/flare/Minion.flr';
 import '../scss/home.scss';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
