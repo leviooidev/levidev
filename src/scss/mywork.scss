@@ -55,8 +55,8 @@ $bold: bold;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex: 1;
     background-color: $primaryColor;
+    width: 100%;
 }
 
 .mywork-container-row{
@@ -84,8 +84,7 @@ $bold: bold;
 }
 
 .img-logo{
-    max-width: 100%;
-    
+    max-width: 100%;  
 }
 
 .cv-title{
@@ -93,7 +92,6 @@ $bold: bold;
     font-weight: bold;
     color: $sixthColor;
     margin-top: $caption;
-    
 }
 
 .cv-desc{   
