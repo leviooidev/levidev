@@ -85,13 +85,6 @@ $bold: bold;
     color: $sixthColor;
 }
 
-.contact-intro-title-object{
-    transition: all .2s ease;
-}
-.contact-intro-title-object:hover{
-    color: $fourthColor;
-    font-size: $h1*2.5;
-}
 
 .contact-intro-description{
     font-size: $h2;
@@ -113,6 +106,17 @@ $bold: bold;
 }
 .tfinput-container{
     flex: 1;
+}
+
+//Web Size
+@media screen and (min-width: 600px) {
+    .contact-intro-title-object{
+        transition: all .2s ease;
+    }
+    .contact-intro-title-object:hover{
+        color: $fourthColor;
+        font-size: $h1*2.5;
+    }
 }
 
   /* On screens that are 600px or less, set the background color to olive */

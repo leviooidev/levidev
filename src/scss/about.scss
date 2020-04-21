@@ -89,13 +89,6 @@ $bold: bold;
     color: $sixthColor;
 }
 
-.about-intro-title-object{
-    transition: all .2s ease;
-}
-.about-intro-title-object:hover{
-    color: #5EB3B6;
-    font-size: $h1*2.5;
-}
 
 .about-intro-description{
     font-size: $h2;
@@ -182,7 +175,16 @@ $bold: bold;
         }
 }
 
-
+//Web Size
+@media screen and (min-width: 600px) {
+    .about-intro-title-object{
+        transition: all .2s ease;
+    }
+    .about-intro-title-object:hover{
+        color: #5EB3B6;
+        font-size: $h1*2.5;
+    }
+}
  
 
   /* On screens that are 600px or less, set the background color to olive */

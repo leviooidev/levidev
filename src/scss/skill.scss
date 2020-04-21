@@ -85,13 +85,7 @@ $bold: bold;
     color: $sixthColor;
 }
 
-.skill-intro-title-object{
-    transition: all .2s ease;
-}
-.skill-intro-title-object:hover{
-    color: $fourthColor;
-    font-size: $h1*2.5;
-}
+
 
 .skill-intro-description{
     font-size: $h2;
@@ -294,6 +288,17 @@ $bold: bold;
     font-size: $base;
     color: $sixthColor;
     font-weight: bold;
+}
+
+//Web Size
+@media screen and (min-width: 600px) {
+    .skill-intro-title-object{
+        transition: all .2s ease;
+    }
+    .skill-intro-title-object:hover{
+        color: $fourthColor;
+        font-size: $h1*2.5;
+    }
 }
 
   /* On screens that are 600px or less, set the background color to olive */

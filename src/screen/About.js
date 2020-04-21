@@ -68,7 +68,8 @@ export default class About extends React.Component {
                 <span className = "timeline-detail-desc">
                   As Mobile App Developer in XendNow Sdn Bhd<br/>
                   Native Android - Handheld app for delivery job.<br/>
-                  React Native - Cross platform mobile app for end user to make booking for delivery.
+                  React Native - Cross platform mobile app for end user to make booking for delivery.<br/>
+                  Web Development - Frontend website for customer make booking for delivery.
                 </span>
               </div>
             </div>

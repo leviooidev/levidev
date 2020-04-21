@@ -45,8 +45,8 @@ export default class Skill extends React.Component {
               <br/>
               <span className="skill-intro-description">
                 The main area i expertise is mobile app development (Android &#38; iOS) <br/>
-                Experienced in React Web App (PWA), building small and medium web app.<br/>
-                I also have full stack developer experience with WordPress, PHP, Firebase, MongoDB, Tensorflow.
+                Experienced in React Web App (PWA), React Router and Redux, for building small and medium web app.<br/>
+                I also have full stack developer experience with AWS, WordPress, PHP, Firebase, MongoDB, Tensorflow.
               </span>
               
             </div>
@@ -151,6 +151,8 @@ export default class Skill extends React.Component {
                 <span className = "skill-bar-negative-text"><CountUp end={60} />%</span>
               </div>
             </div>
+
+            
             
           </div>
       </div>

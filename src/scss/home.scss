@@ -84,105 +84,7 @@ $bold: bold;
     font-size: $h1*2;
     font-weight: bold;
     color: $sixthColor;
-
-    // #o1{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o2{
-    //     animation: mymove 1s ;
-    //     animation-delay: 2s;
-    // }
-    // #o3{
-    //     animation: mymove 1s ;
-    //     animation-delay: 3s;
-    // }
-    // #o4{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o5{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o6{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o7{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o8{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o9{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o10{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o11{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o12{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o13{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o14{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o15{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o16{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o17{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o18{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o19{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o20{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o21{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o22{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o23{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-    // #o24{
-    //     animation: mymove 1s ;
-    //     animation-delay: 1s;
-    // }
-
-    
+ 
     
 }
 
@@ -195,16 +97,6 @@ $bold: bold;
   }
 
 
-
-.home-intro-title-object{
-    transition: all .2s ease;
-}
-.home-intro-title-object:hover{
-    color: $fourthColor;
-    font-size: $h1*2.5;
-    //animation: mytext 1s ;
-}
-
 .home-intro-description{
     font-size: $h2;
     color: $sixthColor;
@@ -214,6 +106,19 @@ $bold: bold;
 #home-img{
     width: 500px;
     animation: mymove 1s ;
+}
+
+//Web Size
+@media screen and (min-width: 600px) {
+
+    .home-intro-title-object{
+        transition: all .2s ease;
+    }
+    .home-intro-title-object:hover{
+        color: $fourthColor;
+        font-size: $h1*2.5;
+        //animation: mytext 1s ;
+    }
 }
 
 //Mobile Size
