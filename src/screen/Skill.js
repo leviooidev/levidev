@@ -71,7 +71,7 @@ export default class Skill extends React.Component {
               <div className="skill-bar-positive sbp2" />
               {/* This include the percentage text inside */}
               <div className = "skill-bar-negative sbn2" >
-                <span className = "skill-bar-negative-text"><CountUp end={50} />%</span>
+                <span className = "skill-bar-negative-text"><CountUp end={60} />%</span>
               </div>
             </div>
 
@@ -82,7 +82,7 @@ export default class Skill extends React.Component {
               <div className="skill-bar-positive sbp3"/>
               {/* This include the percentage text inside */}
               <div className = "skill-bar-negative sbn3">
-                <span className = "skill-bar-negative-text"><CountUp end={60} />%</span>
+                <span className = "skill-bar-negative-text"><CountUp end={80} />%</span>
               </div>
             </div>
 
@@ -93,7 +93,7 @@ export default class Skill extends React.Component {
               <div className="skill-bar-positive sbp4"/>
               {/* This include the percentage text inside */}
               <div className = "skill-bar-negative sbn4">
-                <span className = "skill-bar-negative-text"><CountUp end={70} />%</span>
+                <span className = "skill-bar-negative-text"><CountUp end={80} />%</span>
               </div>
             </div>
 
@@ -104,18 +104,18 @@ export default class Skill extends React.Component {
               <div className="skill-bar-positive sbp5" />
               {/* This include the percentage text inside */}
               <div className = "skill-bar-negative sbn5">
-                <span className = "skill-bar-negative-text"><CountUp end={70} />%</span>
+                <span className = "skill-bar-negative-text"><CountUp end={80} />%</span>
               </div>
             </div>
 
             <div className = "skill-bar">   
               <div className = "skill-bar-title">
-                <span className = "skill-bar-title-text">PHP</span>
+                <span className = "skill-bar-title-text">Golang</span>
               </div>
               <div className="skill-bar-positive sbp6" />
               {/* This include the percentage text inside */}
               <div className = "skill-bar-negative sbn6">
-                <span className = "skill-bar-negative-text"><CountUp end={60} />%</span>
+                <span className = "skill-bar-negative-text"><CountUp end={70} />%</span>
               </div>
             </div>
 
@@ -143,12 +143,12 @@ export default class Skill extends React.Component {
 
             <div className = "skill-bar">   
               <div className = "skill-bar-title">
-                <span className = "skill-bar-title-text">Node.js</span>
+                <span className = "skill-bar-title-text">MongoDB</span>
               </div>
               <div className="skill-bar-positive sbp9" />
               {/* This include the percentage text inside */}
               <div className = "skill-bar-negative sbn9" >
-                <span className = "skill-bar-negative-text"><CountUp end={60} />%</span>
+                <span className = "skill-bar-negative-text"><CountUp end={30} />%</span>
               </div>
             </div>
 

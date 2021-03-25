@@ -71,16 +71,16 @@ export default class Home extends React.Component {
 
               {/* Mobile App Developer */}
               <span className="home-intro-title">
-                <span className = "home-intro-title-object">M</span>
-                <span className = "home-intro-title-object">o</span>
-                <span className = "home-intro-title-object">b</span>
-                <span className = "home-intro-title-object">i</span>
+                <span className = "home-intro-title-object">F</span>
+                <span className = "home-intro-title-object">u</span>
                 <span className = "home-intro-title-object">l</span>
-                <span className = "home-intro-title-object">e</span>
+                <span className = "home-intro-title-object">l</span>
                 <span> </span>
-                <span className = "home-intro-title-object">A</span>
-                <span className = "home-intro-title-object">p</span>
-                <span className = "home-intro-title-object">p</span>
+                <span className = "home-intro-title-object">S</span>
+                <span className = "home-intro-title-object">t</span>
+                <span className = "home-intro-title-object">a</span>
+                <span className = "home-intro-title-object">c</span>
+                <span className = "home-intro-title-object">k</span>
                 <span> </span>
                 <span className = "home-intro-title-object">D</span>
                 <span className = "home-intro-title-object">e</span>

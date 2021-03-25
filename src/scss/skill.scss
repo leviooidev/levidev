@@ -138,44 +138,44 @@ $bold: bold;
     flex:2;
 }
 .sbp2{
-    flex:5;
+    flex:6;
     animation: a_sbp2 2s ;
     animation-timing-function: ease-in-out;
 }
 .sbn2{
-    flex:5;
+    flex:4;
 }
 .sbp3{
-    flex:6;
+    flex:8;
     animation: a_sbp3 2s ;
     animation-timing-function: ease-in-out;
 }
 .sbn3{
-    flex:4;
+    flex:2;
 }
 .sbp4{
-    flex:7;
+    flex:8;
     animation: a_sbp4 2s ;
     animation-timing-function: ease-in-out;
 }
 .sbn4{
-    flex:3;
+    flex:2;
 }
 .sbp5{
-    flex:7;
+    flex:8;
     animation: a_sbp5 2s ;
     animation-timing-function: ease-in-out;
 }
 .sbn5{
-    flex:3;
+    flex:2;
 }
 .sbp6{
-    flex:6;
+    flex:7;
     animation: a_sbp6 2s ;
     animation-timing-function: ease-in-out;
 }
 .sbn6{
-    flex:4;
+    flex:3;
 }
 .sbp7{
     flex:5;
@@ -194,12 +194,12 @@ $bold: bold;
     flex:3;
 }
 .sbp9{
-    flex:6;
+    flex:3;
     animation: a_sbp9 2s ;
     animation-timing-function: ease-in-out;
 }
 .sbn9{
-    flex:4;
+    flex:7;
 }
 
 @keyframes a_sbp1 {
@@ -217,7 +217,7 @@ $bold: bold;
         
         }
     100% {
-        flex: 5;
+        flex: 6;
         }
 }
 @keyframes a_sbp3 {
@@ -226,7 +226,7 @@ $bold: bold;
         
         }
     100% {
-        flex: 6;
+        flex: 8;
         }
 }
 @keyframes a_sbp4 {
@@ -235,7 +235,7 @@ $bold: bold;
         
         }
     100% {
-        flex: 7;
+        flex: 8;
         }
 }
 @keyframes a_sbp5 {
@@ -244,7 +244,7 @@ $bold: bold;
         
         }
     100% {
-        flex: 7;
+        flex: 8;
         }
 }
 @keyframes a_sbp6 {
@@ -253,7 +253,7 @@ $bold: bold;
         
         }
     100% {
-        flex: 6;
+        flex: 7;
         }
 }
 @keyframes a_sbp7 {
@@ -280,7 +280,7 @@ $bold: bold;
         
         }
     100% {
-        flex: 6;
+        flex: 3;
         }
 }
 
