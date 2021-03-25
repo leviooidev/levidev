@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae01a50023edfa625dc249e22ab294e5",
+    "revision": "6f115fb119e49144464d38151a8140ef",
     "url": "/levidev/index.html"
   },
   {
-    "revision": "6b9d73609bd0b3dfd475",
+    "revision": "caafa97777095799a258",
     "url": "/levidev/static/css/main.5e31aec0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/levidev/static/js/2.2a4fae2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b9d73609bd0b3dfd475",
-    "url": "/levidev/static/js/main.1f8a8543.chunk.js"
+    "revision": "caafa97777095799a258",
+    "url": "/levidev/static/js/main.9b75956b.chunk.js"
   },
   {
     "revision": "0e36735d7ba002f934c3",

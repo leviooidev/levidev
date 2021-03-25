@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/levidev/static/css/main.5e31aec0.chunk.css",
-    "main.js": "/levidev/static/js/main.1f8a8543.chunk.js",
-    "main.js.map": "/levidev/static/js/main.1f8a8543.chunk.js.map",
+    "main.js": "/levidev/static/js/main.9b75956b.chunk.js",
+    "main.js.map": "/levidev/static/js/main.9b75956b.chunk.js.map",
     "runtime-main.js": "/levidev/static/js/runtime-main.027779c7.js",
     "runtime-main.js.map": "/levidev/static/js/runtime-main.027779c7.js.map",
     "static/js/2.2a4fae2d.chunk.js": "/levidev/static/js/2.2a4fae2d.chunk.js",
     "static/js/2.2a4fae2d.chunk.js.map": "/levidev/static/js/2.2a4fae2d.chunk.js.map",
     "index.html": "/levidev/index.html",
-    "precache-manifest.ffc3112f75dcbdf8684732890183d8fb.js": "/levidev/precache-manifest.ffc3112f75dcbdf8684732890183d8fb.js",
+    "precache-manifest.9780b830f9e380c4e86a58a2b5a76ccb.js": "/levidev/precache-manifest.9780b830f9e380c4e86a58a2b5a76ccb.js",
     "service-worker.js": "/levidev/service-worker.js",
     "static/css/main.5e31aec0.chunk.css.map": "/levidev/static/css/main.5e31aec0.chunk.css.map",
     "static/js/2.2a4fae2d.chunk.js.LICENSE.txt": "/levidev/static/js/2.2a4fae2d.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.027779c7.js",
     "static/js/2.2a4fae2d.chunk.js",
     "static/css/main.5e31aec0.chunk.css",
-    "static/js/main.1f8a8543.chunk.js"
+    "static/js/main.9b75956b.chunk.js"
   ]
 }
