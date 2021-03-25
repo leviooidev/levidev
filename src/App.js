@@ -71,7 +71,7 @@ export default class App extends React.Component {
                 <div className = "navbar-desktop">
 
                   {/* Home Logo */}
-                  <Link id = "homelogo"  to="/">
+                  <Link id = "homelogo"  to="/levidev">
 
                     <img src={signature} alt="signature" id="img-signature"/>
                   </Link>
@@ -80,7 +80,7 @@ export default class App extends React.Component {
                   <div className = "homeMainMenu">
                   
                     <div className = "menuItem">
-                      <Link to="/"  className="link-text" onClick={() => {this.setState({selectedPage:1})}} >
+                      <Link to="/levidev"  className="link-text" onClick={() => {this.setState({selectedPage:1})}} >
                         <div id="menuHomeContainer">
                             <HomeIcon id = "menuHomeIcon" className="menuIcon"/>
                             <span id = "menuHomeDesc">Home</span>
@@ -149,7 +149,7 @@ export default class App extends React.Component {
 
                     <div className="navbar-mobile-bar">
                       {/* Home Logo */}
-                      <Link id = "homelogo"  to="/">
+                      <Link id = "homelogo"  to="/levidev">
                         <img src={signature} alt="signature" id="img-signature-mobile"/>
                       </Link>
                       
@@ -166,7 +166,7 @@ export default class App extends React.Component {
 
                         <div className="navbar-mobile-menu">
 
-                          <Link to="/"  className="link-text" onClick={() => {this.setState({selectedPage:1,showMobileMenu:false})}} >
+                          <Link to="/levidev"  className="link-text" onClick={() => {this.setState({selectedPage:1,showMobileMenu:false})}} >
                             <HomeIcon id = "menuHomeIcon" className="menuIcon"/>
                           </Link>
 
@@ -193,9 +193,8 @@ export default class App extends React.Component {
                 </div>
                 
                 <Switch >
-                  <Route exact path="/">
-                    <Home/>
-                    
+                  <Route exact path="/levidev">
+                    <Home/> 
                   </Route>
                   <Route path="/about">
                     <About/>
